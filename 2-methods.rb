@@ -25,7 +25,8 @@ pp array_a
 pp array_a.delete_if{|x| x == 1}
 pp array_a
 
-#
+# Find how you can sort the Array
+# Find how you can make array Uniq
 
 
 

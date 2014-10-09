@@ -12,4 +12,17 @@ end
   pp "kokos"
 end
 
-# while for until
+# Range
+(1..5).each do |v|
+  pp v
+end
+
+# Write the first example with while syntax
+# Print all letters in english alphabet
+
+
+
+
+
+
+

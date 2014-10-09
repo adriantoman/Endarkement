@@ -18,6 +18,8 @@ variable_b = 2
 pp "Here we put one : #{variable_a} and here we put two: #{variable_b}"
 
 
+# Make the sentence upcase
+# Use the method to change everyone in the sentence to no one
 
 
 

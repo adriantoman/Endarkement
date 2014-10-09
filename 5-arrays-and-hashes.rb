@@ -34,6 +34,9 @@ array = [1,2,3,4,5]
 # pp array
 
 
+# Lets print the second element in array
+# Lets sort with special rule, that 3 is JOKER and it is bigger than everything else :) (Help -> Fixnum -> <=>)
+
 # Hashes
 
 hash = {
@@ -80,6 +83,13 @@ values = hash.map do |k,v|
   end
 end
 pp values
+
+# Lets test that the hash has key "key1"
+# Add new value to Array under key4
+# Lets delete from hash the values with key1
+# Lets delete from hash the leaf with arrays
+
+
 
 
 
