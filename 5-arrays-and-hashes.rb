@@ -3,7 +3,9 @@ require "pp"
 
 #Arrays
 array = [1,2,3,4,5]
+
 #array = ["1",[1,2],2,3]
+#
 #
 #
 # array.each do |value|
@@ -11,27 +13,32 @@ array = [1,2,3,4,5]
 # end
 #
 # array.each {|value| pp value}
-#
+
 # array.shuffle!
 # array.each_with_index do |value,i|
-#   pp value
-#   pp i
+#   pp "#{value}#{i}"
 # end
 
 # pp array.find_all {|v| v == 1 or v == 2}
+#
 # values = array.find_all do |v|
-#   v == 1 or v == 2
+#   if (v == 1 or v == 2)
+#     true
+#   else
+#     false
+#   end
 # end
 # pp values
 
-# array.collect! do |v|
-#   if v == 1
-#     "empty"
-#   else
-#     v
-#   end
-# end
-# pp array
+array.collect! do |v|
+  if v == 1
+    v + 1
+  else
+
+    v
+  end
+end
+pp array[1]
 
 
 # Lets print the second element in array
@@ -73,16 +80,16 @@ hash = {
 # pp hash.select {|k,v| k == "key1"}
 # pp hash.select {|k,v| v.instance_of?(Array)}
 
-values = hash.map do |k,v|
-  if (v.instance_of?(Array))
-    "#{k} a #{v.join(", ")}"
-  elsif (v.instance_of?(Hash))
-    "#{k} a #{v.values.join(", ")}"
-  else
-    "#{k} a #{v}"
-  end
-end
-pp values
+# values = hash.map do |k,v|
+#   if (v.instance_of?(Array))
+#     "#{k} a #{v.join(", ")}"
+#   elsif (v.instance_of?(Hash))
+#     "#{k} a #{v.values.join(", ")}"
+#   else
+#     "#{k} a #{v}"
+#   end
+# end
+# pp values
 
 # Lets test that the hash has key "key1"
 # Add new value to Array under key4
