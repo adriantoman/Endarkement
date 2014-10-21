@@ -10,7 +10,7 @@ array1 = []
 
 # Count how many , are in following text
 # Replace or with and
-# Make regular expression to find out first and last word in each sentences.
+# Make regular expression to find out first and last word in each sentence.
 
 string = "People are being warned against picking a name that could cause offence, or simply make no sense at all, in advice from the CCTV News website. Many Chinese people prefer to use an English name, particularly if they conduct business with the West. But CCTV says people should avoid fictional characters, names with the potential for sexual innuendo, or random words like Dragon, Fish or Lawyer, which could come back and haunt you"
 
