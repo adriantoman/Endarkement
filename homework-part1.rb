@@ -5,7 +5,7 @@
 array1 = [1,2,3,4,5]
 array2 = [5,7,8,9]
 
-# Make new array which consists of 10 random numbers (Math.rand). Use two different types of loops. 
+# Make new array which consists of 10 random numbers (Math.rand). Do it twice with usage of two different types of loops.  
 array1 = []
 
 # Count how many , are in following text
